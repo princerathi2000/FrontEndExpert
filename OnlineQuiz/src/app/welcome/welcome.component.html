@@ -1,0 +1,17 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welcome to Oxygen Quiz</h1>
+    <p class="col-md-8">This quiz will contain total 9 questions. Each question carry 10 points.</p>
+    <h4>Rules :</h4>
+    <ol>
+        <li>Correct questions giver you 10 points</li>
+        <li>No minus marks for wrong answers</li>
+        <li>You will have 10 sec for each question</li>
+        <li>Dont refresh the page , otherwise the quiz will be restarted</li>
+    </ol>
+    <h1 style="font-family: cursive;text-align: center;">!!! ALL THE BEST !!!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name : </label>
+        <input #name type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start the Quiz</button>
+</div>
